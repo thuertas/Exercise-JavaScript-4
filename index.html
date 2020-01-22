@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Arrays Exercise</title>
+</head>
+<body>
+    <script>
+        var link = new Array();
+            link['linkName'] = "W3Schools";
+            link['linkLogo'] = "http://www.w3schools.com/images/w3schools.png";
+            link['linkURL'] = "http://www.w3schools.com/";
+            link['linkDescription'] = "W3Schools is a web developer information website, with tutorials and references relating to web development topics such as HTML, CSS, JavaScript and PHP.";
+
+        document.write ("<a href='" + link['linkURL'] + "'>" + link['linkName'] + "</a>" + "<br><br>" + "<a href='" + link['linkURL'] + "'>" + "<img src='" + link['linkLogo'] + "'alt='" + link['linkName'] + "'></a>" + "<p>" + link['linkDescription'] + "</p>");
+    </script>
+</body>
+</html>
